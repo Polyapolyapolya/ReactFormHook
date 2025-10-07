@@ -1,5 +1,6 @@
 import React from 'react'
 import { useForm } from "react-hook-form"
+import * as motion from "motion/react-client"
 
 let count = 0;
 export default function FeedbackForm() {
@@ -72,7 +73,8 @@ export default function FeedbackForm() {
                     <div className="form-text text-danger">{ errors.email?.message }</div>
                 </div>
                 <div className="mb-3">
-                    <button className="btn btn-outline-primary" type='submit'>Отправить</button>
+                    <motion.button whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.95 }} className="btn btn-outline-primary" type='submit'>Отправить</motion.button>
                 </div>
             </form>
         </>

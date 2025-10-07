@@ -1,7 +1,11 @@
 import React from 'react'
+import Effects from './Effects'
 
 export default function Main() {
   return (
-    <div>Главная страница сайта</div>
+    <>
+    Главная страница сайта
+    <Effects></Effects>
+    </>
   )
 }
