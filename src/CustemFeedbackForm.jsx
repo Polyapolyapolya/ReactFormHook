@@ -1,10 +1,10 @@
 import FeedbackForm from './Pages/FeedbackForm.jsx';
-import village from "./asset/village.png"
+import bunner from "./asset/bunner.jpg"
 
 export default function CustemFeedbackForm() {
   return (
     <div className='card'>
-        <img src={village} className="card-img-top opacity-25" alt="Горы"/>
+        <img src={bunner} className="card-img-top" alt="Баннер"/>
         <div className='card-body'>
             <FeedbackForm></FeedbackForm>
         </div>   
